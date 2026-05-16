@@ -27,3 +27,9 @@ import numpy as np
 # zero_arr = np.zeros((4,4))
 # print(zero_arr)
 
+#Create digonal array
+dig_arr = np.diag((1,1,1))
+print(dig_arr)
+#we also change the digonal values by own
+dig_array = np.diag((5,5,5))
+print(dig_array)
