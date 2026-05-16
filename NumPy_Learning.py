@@ -16,3 +16,5 @@ import numpy as np
 
 
 #Now we create an array by telling only number of rows and colimns and fill with some integer
+arr = np.full((3,3),5) #This line create a array with 3 rows and 3 columns and fill all the elements with 5 and store the array in a veriable name arr.
+print(arr)
