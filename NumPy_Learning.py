@@ -27,9 +27,22 @@ import numpy as np
 # zero_arr = np.zeros((4,4))
 # print(zero_arr)
 
-#Create digonal array
-dig_arr = np.diag((1,1,1))
-print(dig_arr)
-#we also change the digonal values by own
-dig_array = np.diag((5,5,5))
-print(dig_array)
+#Create digonal array and we also change the digonal values by own
+# dig_arr = np.diag((1,1,1))
+# print(dig_arr)
+# dig_array = np.diag((5,5,5))
+# print(dig_array)
+
+
+new_3d_arr = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(new_3d_arr.shape) # Print the sape of the array means number of rows and columns
+new_2d_arr = np.array([[1,2],[4,5]])
+print(new_2d_arr.shape) # Print the sape of the array means number of rows and columns
+
+print(new_3d_arr.size) #print the the size/elements of the array
+print(new_2d_arr.size) #print the the size/elements of the array
+
+
+print(new_3d_arr.ndim) #Print the deminsion of the array
+print(new_2d_arr.ndim) #Print the deminsion of the array
+print(new_3d_arr.dtype) # Print the type of the array
