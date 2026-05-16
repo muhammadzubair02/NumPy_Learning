@@ -20,5 +20,10 @@ import numpy as np
 # print(arr)
 
 #Now we create a array whos all elements are one name ones array
-ones_arr = np.ones((3,3))
-print(ones_arr)
+# ones_arr = np.ones((3,3))
+# print(ones_arr)
+
+#Create zeros array whos all values are 0 name ones array
+# zero_arr = np.zeros((4,4))
+# print(zero_arr)
+
